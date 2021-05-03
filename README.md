@@ -3,4 +3,4 @@
 
 <hr>
 
-<img src="src/assets/screenshot.png" />
+<img src="src/assets/screenhot.png" />
