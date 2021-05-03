@@ -1,0 +1,22 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.folderWrapper {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.folderText {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.marginBottom20 {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,50 @@
+.wrapper {
+  padding: 10px;
+  position: absolute;
+  width: 260px;
+  height: 289.15px;
+  background: rgba(245, 245, 245, 0.5);
+  background-blend-mode: luminosity;
+  backdrop-filter: blur(81.5485px);
+  border-radius: 6px;
+  left: 10px;
+  top: -10px;
+}
+
+.ul {
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.p {
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.appStoreSpan {
+  font-size: 11px;
+  color: #797979;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 2px 6px;
+  border-radius: 8.5px;
+}
+
+.chars {
+  font-size: 11px;
+  color: #797979;
+}
+
+.border {
+  border-bottom: 1px solid;
+  border-color: rgba(0, 0, 0, 0.05);
+}

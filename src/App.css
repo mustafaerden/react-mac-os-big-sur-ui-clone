@@ -1,0 +1,18 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  overflow: hidden;
+}
+
+.inner_wrapper {
+  position: relative;
+  height: calc(100% - 102px);
+  width: 100vw;
+  margin: 40px 0;
+  padding: 0 20px;
+}

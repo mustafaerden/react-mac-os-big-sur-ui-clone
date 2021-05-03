@@ -1,0 +1,72 @@
+.wrapper {
+  position: absolute;
+  height: 24px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(1px);
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.wrapper_inner_left {
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+}
+
+.appleIcon {
+  position: static;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+.left_ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+}
+
+.left_ul > li {
+  height: 100%;
+  margin: 0 5px;
+  padding-top: 2.3px;
+}
+
+.left_ul > li > span {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 4px 5px;
+  cursor: pointer;
+}
+
+.right_ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+}
+
+.right_ul > li {
+  height: 100%;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.right_ul > li > img {
+  width: 26px;
+  height: 26px;
+}
+
+.date {
+  margin-left: 5px;
+}

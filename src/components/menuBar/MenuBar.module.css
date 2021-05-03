@@ -1,0 +1,57 @@
+.wrapper {
+  position: absolute;
+  width: 806px;
+  height: 72px;
+  left: calc(50% - 806px / 2);
+  bottom: 10px;
+  background: rgba(245, 245, 245, 0.15);
+  background-blend-mode: luminosity;
+  backdrop-filter: blur(81.5485px);
+  border-radius: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.wrapperHidden {
+  position: absolute;
+  width: 806px;
+  height: 72px;
+  left: calc(50% - 806px / 2);
+  bottom: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+}
+
+.ul > li > img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.ul > li > img:hover {
+  width: 70px;
+  height: 70px;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+    width: 70px;
+    height: 70px;
+  }
+  100% {
+    transform: translateY(-20px);
+    width: 70px;
+    height: 70px;
+  }
+}
+.bounceAnimation {
+  animation: bounce 0.5s infinite alternate;
+}
